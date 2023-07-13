@@ -1,0 +1,11 @@
+# train and val data as 1) directory: path/images/, 2) file: path/images.txt, or 3) list: [path1/images/, path2/images/]
+train: D:\AI\graduation\yolov7-main\test\train  # 118287 images
+val: D:\AI\graduation\yolov7-main\test\val  # 5000 images
+
+
+# number of classes
+nc: 7
+
+# class names
+names: ['car', 'van', 'truck', 'bike', 'person', 'plate', 'sign']
+

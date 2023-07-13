@@ -1,0 +1,6 @@
+chdir D:\AI\graduation\yolov7-main
+python detect.py --weights yolov7.pt --conf 0.55 --img-size 640 --source 0
+python train.py --workers 1 --device 0 --batch-size 8 --epochs 5 --img 1920 1920 --data data/cust.yaml --hyp data/hyp.scratch.custom.yaml --cfg cfg/training/yolov7-cust --name lllast --weights bbb.pt
+
+
+python train.py --workers 1 --device 0 --batch-size 2 --epochs 105 --img 800 800 --data data/cust.yaml --hyp data/hyp.scratch.custom.yaml --cfg cfg/training/yolov7-cust.yaml --name lasstt --weights b2.pt 
