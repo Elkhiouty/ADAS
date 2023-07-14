@@ -5,8 +5,8 @@
 ## Which systems did we enhance?
 
 ### 1- Adaptive cruise control (ACC)
-#### 1-Set max speed automatically.
-#### 2-Distance measurement without sensors.
+#### 1- Set max speed automatically.
+#### 2- Distance measurement without sensors.
 ### 2- Lane centering and keeping
 #### Lane detection using slope only, which gives efficient and fast detection.
 
@@ -20,11 +20,10 @@
 #### We measured the distance using a single camera only depending on this equation
 
 #### F * H = P * D
-
-#### F ==> Focal Lenght
-#### H ==> Vehicle Height
-#### P ==> Count of Pixels
-#### D ==> Distance
+##### F ==> Focal Lenght
+##### H ==> Vehicle Height
+##### P ==> Count of Pixels
+##### D ==> Distance
 
 ### 3- Sign Recognition
 #### We trained the model on a German traffic signs dataset [Link](https://www.kaggle.com/datasets/meowmeowmeowmeowmeow/gtsrb-german-traffic-sign), then we froze the unneeded cells to have better accuracy on the most common traffic sign on the highways
